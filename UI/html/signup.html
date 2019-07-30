@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up | Flash WayFarer</title>
+    <link rel="shortcut icon" href="../assets/images/waytrip.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <script src="../js/all.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Start Navigation  bar -->
+        <div class="navbar">
+            <h1 class="logo" id="logo"><a href="../index.html">WayFarer<span> Trips</span></a></h1>
+            <ul class="navbar-list">
+                <li class="current"><a href="../index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="">Signup</a></li>
+            </ul>
+        </div>
+        <!-- End Navigation bar -->
+    </header>
+    <section class="flex-height bg-image empty-top">
+        <div class="row flex-justify-content">
+            <div class="flex-right">
+                <h1 class="section-title">Build your own path</h1>
+                <p>By having an account you to create your own path to the beautiful trips of all the time. Make it
+                    simple and stunning
+                    is the key to a successful path. WayFarer gives you the opportunity to make your journey simple by
+                    booking a seat on
+                    any trip and travel safe, in comfort and like a boss.</p>
+            </div>
+            <form action="" class="flex-right-card flex-medium">
+                <h1 class="section-title">Signup</h1>
+                <div class="col-md-2">
+                    <label for="email"><b>Firstname</b></label>
+                    <label for="email" class="flex-input-center"><b>Lastname</b></label>
+                    <input type="text" placeholder="Enter your firstname" class="form-input flex-input-center"
+                        id="firstName">
+                    <input type="email" placeholder="Enter your lastname" class="form-input flex-input-center"
+                        id="lastName">
+                    <p><span class="error error-firstname"></span></p>
+                    <p><span class="error error-lastname"></span></p>
+                </div>
+
+                <!-- email -->
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email">
+                <p><span class="error error-email"></span></p>
+
+                <!-- Phone -->
+                <label for="phone"><b>Phone</b></label>
+                <input type="phone" placeholder="Enter phone number" name="phone" id="phone">
+                <p><span class="error error-phone"></span></p>
+
+                <!-- country -->
+                <div class="col-md-2">
+                    <label for="country"><b>Country</b></label>
+                    <label for="user_city" class="flex-input-center"><b>City</b></label>
+                    <select name="country" id="user_country" class="flex-input-center">
+                        <option value="" selected disabled>Select country where you live</option>
+                        <option value="">Congo</option>
+                        <option value="">Rwanda</option>
+                        <option value="">Kenya</option>
+                        <option value="">Uganda</option>
+                        <option value="">Tanzania</option>
+                    </select>
+                    <select name="" id="user_city" class="flex-input-center">
+                        <option value="" selected disabled>Select city where you stay</option>
+                        <option value="">Bukavu</option>
+                        <option value="">Kigali</option>
+                        <option value="">Kampala</option>
+                        <option value="">Nairobi</option>
+                        <option value="">Dar-es-salem</option>
+                        <option value="">Bukavu</option>
+                        <option value="">Gisenyi</option>
+                        <option value="">Goma</option>
+                    </select>
+                </div>
+
+                <!-- password -->
+                <label for="confirm_pwd"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="confirm_pwd" id="password">
+                <p><span class="error error-password"></span></p>
+
+                <!-- confirm password -->
+                <label for="pwd"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="pwd" id="confirmPassword">
+                <p><span class="error error-confirmPassword"></span></p>
+
+                <button type="button" class="btn btn-secondary" onclick="new SignUp();">Signup</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+        <div class="footer-icons">
+            <a href="#" class="footer-single-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="footer-single-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-single-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-single-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="footer-single-icon">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="copyright align-center">
+            <p class="fg-white"> &copy; Eliezer Basubi</p>
+        </div>
+    </footer>
+</body>
+<script src="../js/signup.js"></script>
+
+</html>
