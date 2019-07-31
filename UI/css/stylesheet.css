@@ -469,7 +469,6 @@ header .navbar {
         flex: 0 0 calc(50% - 0.5rem)
     }
 }
-
 @media screen and (min-width:992px) {
     .single-article {
         flex: 0 0 calc(33.3333% - 0.3rem)
@@ -485,7 +484,6 @@ header .navbar {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/images/trip8.jpg') center/cover no-repeat fixed;
     color: #eeeeee;
 }
-
 
 .single-article-achievements {
     text-align: center;
